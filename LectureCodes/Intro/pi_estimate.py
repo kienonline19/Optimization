@@ -66,6 +66,7 @@ ninside = np.sum(pxs**2 + pys**2 <= 1)
 print(f"estimated pi = {4* ninside / n_mc} real pi = {np.pi}")
 
 plt.plot(pxs, pys, ".", color="blue")
+plt.show()
 # plt.scatter(pxs, pys, color="blue")
 
 
